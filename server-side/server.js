@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.use("/api/users", require('./routes/users'));
-app.use("/api/profile", require('./routes/profile'));
+app.use("/api/profiles", require('./routes/profiles'));
 app.use("/api/posts", require('./routes/posts'));
 
 // Connect to the database
